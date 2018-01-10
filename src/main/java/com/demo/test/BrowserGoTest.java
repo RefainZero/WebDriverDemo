@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 /**
  * Created by Administrator on 2018/1/6.
- * * 方法：
+ * 方法：
  * back() 模拟浏览器后退按钮
  * forward() 模拟浏览器前进按钮
  * refresh() 刷新页面-F5
