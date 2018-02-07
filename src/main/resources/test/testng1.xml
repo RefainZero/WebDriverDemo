@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Suite" verbose="1" parallel="false" thread-count="1">
+    <listeners>
+       <!--  <listener class-name="com.demo.report.UseTestNg" /> -->
+        <listener class-name="com.demo.report.ZTestReport" />
+    </listeners>
     <test name="Test1">
+        <parameter name="title" value="demo测试样本" />
         <classes>
-            <class name="com.demo.test.DataProviderTest" />
+            <class name="com.demo.report.ReportTitle" />
+            <class name="com.demo.report.TestDemo1" />
+            <class name="com.demo.report.ScreenShot" />
         </classes>
     </test>
 </suite>
