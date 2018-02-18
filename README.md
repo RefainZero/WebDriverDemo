@@ -8,4 +8,4 @@
 
 ## 报告展示
 
-![ztest](https://github.com/zhangfei19841004/ztest/blob/master/ztest.png)
+![ztest](https://github.com/RefainZero/webDriverDemo/blob/master/report.png)
